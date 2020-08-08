@@ -1,0 +1,106 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Styles */
+body {
+    max-width: 100%;
+    /*max-height: 100%;*/
+    background-color: #f0e3ff;
+}
+p {
+    text-indent: 50px;
+    font-family: "Courier", sans-serif;
+}
+a {
+    font-family: "Courier", sans-serif;
+}
+/* navigation styles */
+.navList {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    /*z-index: 1;*/
+    top: 0;
+    left: 0;
+    background-color: #3e206d;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.navList a {
+    display: block;
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    color: #C6D0D3;
+}
+/* header styles */
+.h1Header {
+    background-color: #916dd5;
+    color: #C6D0D3;
+    font-family: 'New York', serif;
+    position: fixed;
+    padding: 40px;
+    /*z-index: 1;*/
+    width: 100%;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    margin-left: 150px;
+}
+h3, h5 {
+    font-family: 'New York', serif;
+}
+/* sectionOne element styles */
+.sectionOne {
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+    /*position: fixed;*/
+    margin-top: 140px;
+    margin-left: 150px;
+}
+
+/* main element styles */
+.main {
+    padding: 0 10px;
+}
+
+.main p {
+    margin: .5em 1em;
+}
+
+ul.dl {
+    list-style-type: none;
+}
+
+#img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+#imgp {
+    margin-left: 40%;
+}
