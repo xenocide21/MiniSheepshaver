@@ -109,3 +109,9 @@ ul.dl {
 #imgp {
     margin-left: 40%;
 }
+
+.pguide img {
+    display: block;
+    min-width: 80%;
+    margin: 0 10%;
+}
