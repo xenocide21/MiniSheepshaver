@@ -55,6 +55,11 @@ a {
     padding: 6px 8px 6px 16px;
     color: #C6D0D3;
 }
+
+.navList a:hover {
+    background-color: #d89cf6;
+    color: #3e206d;
+}
 /* header styles */
 .h1Header {
     background-color: #916dd5;
