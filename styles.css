@@ -112,6 +112,11 @@ ul.dl {
 
 .pguide img {
     display: block;
-    min-width: 80%;
-    margin: 0 10%;
+    min-width: 40%;
+    /*margin: 0 30%;*/
+}
+
+.pg {
+    justify-content: center;
+    display: flex;
 }
