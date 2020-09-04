@@ -95,10 +95,6 @@ h3, h5 {
     margin: .5em 1em;
 }
 
-ul.dl {
-    list-style-type: none;
-}
-
 #img1 {
     display: block;
     margin-left: auto;
@@ -119,4 +115,92 @@ ul.dl {
 .pg {
     justify-content: center;
     display: flex;
+}
+
+/* table element styles */
+script {
+    display: none;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    color: #3e206d;
+    font-size: 14px;
+    background-color: #3e206d;
+    /*bacgkround-image: <insertimage>*/
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+    border-collapse: separate;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+
+.table-main {
+    min-width: 100%;
+    background-color: #ffffff;
+    border: 2px #3e206d solid;
+}
+
+.row1 {
+    background-color: #f0e3ff;
+}
+
+.category {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.category a {
+    color: #000;
+    text-decoration: none;
+}
+
+.category img {
+    vertical-align: middle;
+}
+
+.subT {
+    padding: 0 0 0.5em 0.5em;
+    margin: 0 0 0 1em;
+}
+
+.dataT {
+    padding: 0.5em 0 0.5em 1em;
+    margin: 0.5em;
+    border-collapse: collapse;
+}
+
+.dataT td {
+    border: 1px solid #000;
+    padding: .2em;
+}
+
+.footnote {
+    padding: 0 0.5em 0 1em;
+    margin: 0.5em 0.5em 0.5em 1em;
 }
