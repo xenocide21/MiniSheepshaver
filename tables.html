@@ -88,9 +88,9 @@
 					
                                         var myrows   = id_table.getElementsByTagName("tr");
                                         for (var i=0; i<myrows.length; i++) {
-                                            var mycels = myrows[i].getElementsByTagName("td");
-						var id_img = document.getElementById(e_img);
+                                            var mycels = myrows[i].getElementsByTagName("td");						
                                             if (e_colno < 0) {
+						    var id_img = document.getElementById(e_img);
                                                 for (var j=1; j<mycels.length; j++) {
                                                     mycels[j].style.color = "#000";
                                                     if (mycels[j].getElementsByTagName("a").length > 0) {
