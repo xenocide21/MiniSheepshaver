@@ -85,6 +85,7 @@
                                 function expand_collapse_rows(e_table, e_data, e_colno) {
                                     if(document.getElementById) {
                                         var id_table = document.getElementById(e_table);
+					var id_img = document.getElementById(e_img);
                                         var myrows   = id_table.getElementsByTagName("tr");
                                         for (var i=0; i<myrows.length; i++) {
                                             var mycels = myrows[i].getElementsByTagName("td");
@@ -100,6 +101,8 @@
                                                 }
                                                 else {
                                                     myrows[i].style.display = "table-row";
+						    id_img.src = "images/icons8-forward-16.jpg"; //test
+                                                    id_img.alt = "Expand";			 //test
                                                 }
                                             }
                                             else {
