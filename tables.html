@@ -85,10 +85,11 @@
                                 function expand_collapse_rows(e_table, e_data, e_colno) {
                                     if(document.getElementById) {
                                         var id_table = document.getElementById(e_table);
-					var id_img = document.getElementById(e_img);
+					
                                         var myrows   = id_table.getElementsByTagName("tr");
                                         for (var i=0; i<myrows.length; i++) {
                                             var mycels = myrows[i].getElementsByTagName("td");
+						var id_img = document.getElementById(e_img);
                                             if (e_colno < 0) {
                                                 for (var j=1; j<mycels.length; j++) {
                                                     mycels[j].style.color = "#000";
@@ -98,7 +99,7 @@
                                                 }
                                                 if(navigator.userAgent.indexOf("Firefox") != -1){
                                                     myrows[i].style.display = "table-row";
-					            id_img.src = "images/icons8-forward-16.jpg"; //test
+							id_img.src = "images/icons8-forward-16.jpg"; //test
                                                     id_img.alt = "Expand";			 //test
                                                 }
                                                 else {
@@ -128,8 +129,8 @@
                                                 else {
                                                     if(navigator.userAgent.indexOf("Firefox") != -1){
                                                         myrows[i].style.display = "table-row";
-							id_img.src = "images/icons8-forward-16.jpg"; //test
-                                                        id_img.alt = "Expand";			 //test
+							    id_img.src = "images/icons8-forward-16.jpg"; //test
+                                                    id_img.alt = "Expand";			 //test
                                                     }
                                                     else {
                                                         myrows[i].style.display = "table-row";
